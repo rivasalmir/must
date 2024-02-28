@@ -1,31 +1,24 @@
 
-# Ambiente de desenvolvimento PHP
+# Ambiente de desenvolvimento Must
 
-Este repositório contém um ambiente de desenvolvimento para aplicações PHP, com a capacidade de sempre trazer a última versão do nginx, mariadb e php.
-
-
-## Autores
-
-- [Almir F. Rivas Jr - @rivasalmir](https://medium.com/@rivasalmir)
+Este repositório contém um ambiente de desenvolvimento para aplicações PHP desenvolvido na Must University
 
 
 ## Funcionalidades
 
-- Docker contendo nginx, php e mariadb
-
+- Docker contendo nginx, php, mysql client e mariadb
 
 
 ## Referência
 
  - [Medium @etearner](https://medium.com/@etearner/setting-up-a-php-development-environment-with-docker-06cc7396a858)
+
 ## Deploy
 
 Para fazer o deploy desse projeto rode
 
 ```bash
-  git clone git@github.com:rivasalmir/php.git
-  cd php
+  git https://github.com/rivasalmir/must
+  cd must
   docker-compose up -d --build
 ```
-
-# must
